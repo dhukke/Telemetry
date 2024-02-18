@@ -10,8 +10,4 @@ The main goal of this project was to see this in [zipkin](http://127.0.0.1:9411/
 
 ## How to run
 
-There is a *docker-compose.yml* file in the root folder, just run that to spin up everything.
-
-```docker-compose up```
-
-Open [swagger](https://localhost:52443/swagger/index.html), there we have only 1 endpoint, just make a call to the endpoint than access [zipkin](http://127.0.0.1:9411/zipkin) to run a query and it should show the traces.
+We can run it via Visual Studio 2022, then open [swagger](https://localhost:52443/swagger/index.html), there we have only 1 endpoint, just make a call to the endpoint than access [zipkin](http://127.0.0.1:9411/zipkin) to run a query and it should show the traces.
